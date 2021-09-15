@@ -1,0 +1,3 @@
+LIBRARY IClassFactoryWithoutRegFile
+EXPORTS
+	SetFirstAndGetNextOddNumber PRIVATE

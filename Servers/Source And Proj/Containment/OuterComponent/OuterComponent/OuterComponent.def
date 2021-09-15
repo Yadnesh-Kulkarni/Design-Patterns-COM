@@ -1,0 +1,6 @@
+LIBRARY OuterComponent
+EXPORTS
+	  DllRegisterServer   @100 PRIVATE
+	  DllUnregisterServer @101 PRIVATE
+      DllGetClassObject   @102 PRIVATE
+      DllCanUnloadNow     @103 PRIVATE

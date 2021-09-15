@@ -1,0 +1,35 @@
+import "unknwn.idl" ; 
+// ICubeCubeRoot Interface
+[
+    object,
+	uuid(D8E55938-C58C-48F6-8BCA-4CA7380EB4C6),// IID Of ICubeCubeRoot
+    helpstring("ICubeCubeRoot Interface"),
+    pointer_default(unique),
+    dual,
+    oleautomation
+]
+interface ICubeCubeRoot : IDispatch
+{
+	import "oaidl.idl";
+    HRESULT CubeOfInteger([in]int,[out,retval]float *);
+	HRESULT CubeRootOfInteger([in]int,[out,retval]float *);
+};
+// The Actual TypeLib Related Code
+[
+	uuid(19C61D07-8D87-46A7-98C3-2D6050E6F079),// LIBID Of Type Library
+    version(1.0),// major version number.minor version number
+    helpstring("CubeCubeRoot Automation Component's Type Library")
+]
+library AutomationServerWithoutRegFileTypeLib
+{
+    importlib("stdole32.tlb");
+    // component code
+    [
+		uuid(A50091A9-0016-4DE5-9495-C12AB177BE6B),// CLSID Of CubeCubeRoot Component
+        helpstring("CubeCubeRoot Automation Component Class")
+    ]
+    coclass CCubeCubeRoot
+    {
+        [default]interface ICubeCubeRoot;
+    };
+};

@@ -1,0 +1,4 @@
+LIBRARY TrigoFunction.dll
+EXPORTS
+	GetSinOfAngle PRIVATE
+	GetCosOfAngle PRIVATE

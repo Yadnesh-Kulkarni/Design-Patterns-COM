@@ -1,0 +1,4 @@
+LIBRARY Containment
+EXPORTS
+	GetMultiplicationOfTwoIntegers @100 PRIVATE
+	GetDivisionOfTwoIntegers @101 PRIVATE

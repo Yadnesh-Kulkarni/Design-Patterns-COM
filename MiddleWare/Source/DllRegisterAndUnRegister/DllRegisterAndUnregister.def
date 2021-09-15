@@ -1,0 +1,4 @@
+LIBRARY DllRegisterAndUnregister.dll
+EXPORTS
+	RegisterServers PRIVATE
+	UnRegisterServers PRIVATE

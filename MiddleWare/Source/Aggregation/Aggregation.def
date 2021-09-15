@@ -1,0 +1,4 @@
+LIBRARY SquareSquareRoot
+EXPORTS
+	GetSquareOfInteger @100 PRIVATE
+	GetSquareRootOfInteger @101 PRIVATE

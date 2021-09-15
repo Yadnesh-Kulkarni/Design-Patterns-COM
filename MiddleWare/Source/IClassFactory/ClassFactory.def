@@ -1,0 +1,4 @@
+LIBRARY IClassFactoryWithoutRegFile
+EXPORTS
+	GetSumOfTwoIntegers @100 PRIVATE
+	GetSubstractionOfTwoIntegers @101 PRIVATE

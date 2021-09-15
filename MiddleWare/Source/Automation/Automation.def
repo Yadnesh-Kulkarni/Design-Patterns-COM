@@ -1,0 +1,4 @@
+LIBRARY CubeCubeRoot
+EXPORTS
+	GetCubeOfInteger PRIVATE
+	GetCubeRootOfInteger PRIVATE

@@ -1,0 +1,13 @@
+import "unknwn.idl" ; 
+// ITrigo Interface
+[
+	object,
+	uuid(074A1DAA-0BAA-454E-9BDE-FB3B3AC123F8),
+	helpstring("ITrigo Interface"),
+	pointer_default(unique)
+]
+interface ITrigoFunction : IUnknown
+{
+	HRESULT SinOfAngle([in]float,[in,out]float *);
+	HRESULT CosOfAngle([in]float,[in,out]float *);
+};
