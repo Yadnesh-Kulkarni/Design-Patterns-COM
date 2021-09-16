@@ -1,5 +1,5 @@
 # Design-Patterns-COM
-Created a multi-tier architecture with each tier implementing multiple COM design patterns
+A multi-tier software application with each tier implementing multiple COM design patterns
 Patterns used in the project are as follows :
 1. Containment (Inner and Outer Component)
 2. Aggregation (Inner and Outer Component)
